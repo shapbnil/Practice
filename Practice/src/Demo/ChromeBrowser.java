@@ -21,7 +21,7 @@ public class ChromeBrowser {
 		//count of footer link on the page
 		WebElement footerdriver=driver.findElement(By.className("fbar"));
 		System.out.println(footerdriver.findElements(By.tagName("a")).size());
-		
+		// Time to sleep
 		Thread.sleep(2000);
 		
 		//Close the Browser
