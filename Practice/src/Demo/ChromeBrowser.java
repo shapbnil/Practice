@@ -23,6 +23,8 @@ public class ChromeBrowser {
 		System.out.println(footerdriver.findElements(By.tagName("a")).size());
 		
 		Thread.sleep(2000);
+		
+		//Close the Browser
 		driver.close();
 	}
 
